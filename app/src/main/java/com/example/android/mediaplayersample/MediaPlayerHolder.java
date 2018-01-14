@@ -30,7 +30,7 @@ import java.util.concurrent.TimeUnit;
  */
 public final class MediaPlayerHolder implements PlayerAdapter {
 
-    public static final int PLAYBACK_POSITION_REFRESH_INTERVAL_MS = 1000;
+    public static final int PLAYBACK_POSITION_REFRESH_INTERVAL_MS = 200;
 
     private final Context mContext;
     private MediaPlayer mMediaPlayer;
